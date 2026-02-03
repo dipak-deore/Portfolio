@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipak Deore | Java Backend Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text { background: linear-gradient(90deg, #3b82f6, #2dd4bf); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero-pattern { background-color: #f8fafc; background-image: radial-gradient(#cbd5e1 0.5px, transparent 0.5px); background-size: 24px 24px; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-bold text-xl tracking-tight uppercase">
+                Dipak <span class="text-blue-600">Deore</span>
+            </span>
+
+            <div class="hidden md:flex space-x-6 text-sm font-medium items-center">
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="mailto:dipakdeore02@outlook.com" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition">Contact Me</a>
+            </div>
+
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-button" class="outline-none">
+                    <i class="fa-solid fa-bars text-xl text-slate-700"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100 px-6 py-4">
+            <div class="flex flex-col space-y-4 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-600 transition py-2">About</a>
+                <a href="#skills" class="hover:text-blue-600 transition py-2">Skills</a>
+                <a href="#projects" class="hover:text-blue-600 transition py-2">Projects</a>
+                <a href="mailto:dipakdeore02@outlook.com" class="text-blue-600 font-bold py-2">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about" class="hero-pattern border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 py-24 text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">Java <span class="gradient-text">Backend</span> Developer</h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                BCA graduate and dedicated developer focused on building the "engine" behind modern applications. I bridge the gap between complex data requirements and seamless user experiences using <strong>Spring Boot</strong> and <strong>Hibernate</strong>.
+            </p>
+            
+            <div class="mt-10 flex flex-col sm:flex-row justify-center items-center gap-6">
+                <a href="resume.pdf" class="bg-slate-900 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-600 transition-all transform hover:scale-105 shadow-lg flex items-center gap-2">
+                    <i class="fas fa-file-download"></i> Download CV
+                </a>
+                
+                <div class="flex gap-6 text-2xl text-slate-600">
+                    <a href="https://github.com/dipak-deore" target="_blank" class="hover:text-blue-600 transition"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dipak-deore/" target="_blank" class="hover:text-blue-600 transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:dipakdeore02@outlook.com" class="hover:text-blue-600 transition"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="bg-white py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center">Technical Arsenal</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-blue-200 transition-colors">
+                    <h3 class="font-bold text-blue-600 mb-4 uppercase tracking-wider text-sm">Languages & Core</h3>
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-code text-xs text-blue-400"></i> Java (OOP, Collections)</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-database text-xs text-blue-400"></i> SQL & JDBC</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-bug-slash text-xs text-blue-400"></i> Exception Handling</li>
+                    </ul>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-blue-200 transition-colors">
+                    <h3 class="font-bold text-blue-600 mb-4 uppercase tracking-wider text-sm">Frameworks</h3>
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-leaf text-xs text-green-500"></i> Spring Boot</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-layer-group text-xs text-blue-400"></i> Hibernate ORM</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-cloud text-xs text-blue-400"></i> RESTful APIs</li>
+                    </ul>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-blue-200 transition-colors">
+                    <h3 class="font-bold text-blue-600 mb-4 uppercase tracking-wider text-sm">Tools</h3>
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-terminal text-xs text-blue-400"></i> MySQL</li>
+                        <li class="flex items-center gap-2"><i class="fa-brands fa-git-alt text-xs text-orange-500"></i> Git & GitHub</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-wrench text-xs text-blue-400"></i> Postman & IntelliJ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold mb-12">Academic Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-2xl transition-all duration-300">
+                <div class="p-8">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold group-hover:text-blue-600 transition">Student Management System</h3>
+                        <a href="https://github.com/dipak-deore/Student-Management-System-SpringBoot-" target="_blank" class="text-slate-400 hover:text-blue-600"><i class="fab fa-github text-2xl"></i></a>
+                    </div>
+                    <p class="text-slate-600 text-sm mb-6 leading-relaxed">Developed robust CRUD APIs using Spring Boot. Implemented a strict layered architecture (Controller-Service-Repository) for clean separation of concerns.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-50 text-blue-600 text-xs font-semibold rounded-full">Spring Boot</span>
+                        <span class="px-3 py-1 bg-blue-50 text-blue-600 text-xs font-semibold rounded-full">MySQL</span>
+                        <span class="px-3 py-1 bg-blue-50 text-blue-600 text-xs font-semibold rounded-full">JPA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-2xl transition-all duration-300">
+                <div class="p-8">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold group-hover:text-blue-600 transition">Bank-App</h3>
+                        <a href="https://github.com/dipak-deore/Bank-App" target="_blank" class="text-slate-400 hover:text-blue-600"><i class="fab fa-github text-2xl"></i></a>
+                    </div>
+                    <p class="text-slate-600 text-sm mb-6 leading-relaxed">Built a core Java application utilizing Hibernate ORM. Focused on transactional integrity for fund transfers and account management.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-emerald-50 text-emerald-600 text-xs font-semibold rounded-full">Hibernate</span>
+                        <span class="px-3 py-1 bg-emerald-50 text-emerald-600 text-xs font-semibold rounded-full">Java Core</span>
+                        <span class="px-3 py-1 bg-emerald-50 text-emerald-600 text-xs font-semibold rounded-full">RDBMS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-900 text-white py-24">
+        <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-2xl font-bold mb-10 flex items-center gap-3">
+                    <i class="fas fa-graduation-cap text-blue-400"></i> Education
+                </h2>
+                <div class="border-l-2 border-blue-500 pl-8 space-y-10">
+                    <div class="relative">
+                        <div class="absolute -left-[37px] top-1 bg-blue-500 w-4 h-4 rounded-full border-4 border-slate-900"></div>
+                        <p class="text-blue-400 font-bold text-sm">2022 - 2025</p>
+                        <h4 class="font-bold text-lg leading-tight">Bachelor of Computer Applications</h4>
+                        <p class="text-slate-400 text-sm mt-1">R. A. College, Washim | CGPA: 6.1</p>
+                    </div>
+                    <div class="relative">
+                        <div class="absolute -left-[37px] top-1 bg-slate-700 w-4 h-4 rounded-full border-4 border-slate-900"></div>
+                        <p class="text-slate-400 font-bold text-sm">2022</p>
+                        <h4 class="font-bold text-lg leading-tight">XII - N.N. Mundada School</h4>
+                        <p class="text-slate-400 text-sm mt-1">Malegaon | 56.33%</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-2xl font-bold mb-10 flex items-center gap-3">
+                    <i class="fas fa-certificate text-blue-400"></i> Certifications
+                </h2>
+                <ul class="space-y-4">
+                    <li class="bg-slate-800/50 p-4 rounded-xl flex items-center gap-4 border border-slate-700 hover:border-blue-500 transition">
+                        <i class="fas fa-check-circle text-emerald-400 text-xl"></i>
+                        <div>
+                            <p class="font-bold">Java Fundamentals</p>
+                            <p class="text-xs text-slate-400 uppercase">SCALER</p>
+                        </div>
+                    </li>
+                    <li class="bg-slate-800/50 p-4 rounded-xl flex items-center gap-4 border border-slate-700 hover:border-blue-500 transition">
+                        <i class="fas fa-check-circle text-emerald-400 text-xl"></i>
+                        <div>
+                            <p class="font-bold">SQL & Database Design</p>
+                            <p class="text-xs text-slate-400 uppercase">SCALER</p>
+                        </div>
+                    </li>
+                    <li class="bg-slate-800/50 p-4 rounded-xl flex items-center gap-4 border border-slate-700 hover:border-blue-500 transition">
+                        <i class="fas fa-check-circle text-emerald-400 text-xl"></i>
+                        <div>
+                            <p class="font-bold">Agile Development</p>
+                            <p class="text-xs text-slate-400 uppercase">Infosys Springboard</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 text-center bg-white">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-4">Let's Build Something Together</h2>
+            <p class="text-slate-600 mb-10">I am currently looking for my next opportunity as a Junior Java Developer. If you think I'd be a good fit for your team, I'd love to hear from you!</p>
+            <a href="mailto:dipakdeore02@outlook.com" class="inline-block bg-blue-600 text-white px-10 py-4 rounded-full font-bold hover:bg-blue-700 transition shadow-xl transform hover:-translate-y-1">
+                Get In Touch <i class="fas fa-paper-plane ml-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-slate-400 border-t border-slate-100 bg-white">
+        <p class="text-sm">© 2024 Dipak Deore. Engineered with Passion & Java.</p>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-button');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
